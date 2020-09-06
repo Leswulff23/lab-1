@@ -11,6 +11,9 @@
                     padding:0px;
                     box-sizing: border-box;
                  }
+            html {
+                font-family: 'Poppins', sans-serif;
+            }
             h1,h2,h3 {
                 font-weight:300;
                 text-transform: uppercase;
@@ -20,9 +23,25 @@
                 max-width:11480px;
                 margin-right:145px;
                 margin-left:165px;
+                
             }
 
+            .main-nav {
+                float: right;
+                list-style:none;
+                margin-top:20px;
+            }
 
+            .main-nav li{
+                display: inline-block;
+                margin-left: 40px;
+            }
+
+            .main-nav li a{
+                text-decoration: none;
+                color:#000;
+
+            }
 
             
 
@@ -32,7 +51,7 @@
         <header> 
             <nav>
                 <div class="nav-bar">
-                    <h3 style="height:100px; width:auto; float:left;">NavBar</h3>
+                    <h2 style="height:100px; width:auto; float:left;margin-top:20px;">Nav&mdash;Bar</h2>
                     <ul class="main-nav">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Skills</a></li>
